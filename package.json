@@ -1,0 +1,30 @@
+{
+    "name": "subheaven-docs",
+    "version": "0.1.0",
+    "description": "A documentation helper",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "subheaven-docs": "./cli.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SubHeaven/subheaven-docs.git"
+    },
+    "author": {
+        "name": "SubHeaven",
+        "email": "subheaven.paulo@gmail.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/SubHeaven/subheaven-docs/issues"
+    },
+    "homepage": "https://github.com/SubHeaven/subheaven-docs#readme",
+    "dependencies": {
+        "debug": "^4.3.1",
+        "subheaven-arg": "github:SubHeaven/subheaven-arg",
+        "subheaven-tools": "github:SubHeaven/subheaven-tools"
+    }
+}
